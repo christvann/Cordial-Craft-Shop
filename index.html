@@ -1,69 +1,353 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Audi Car Website</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cordial Shop</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
 
-    <!---custom css link--->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"/>
 
-    <!---boxicons link--->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <!---remixicons link--->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Cordial</a>
 
-    <!---google fonts link--->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <a href="#" class="logo">AUDI CARS</a>
+            <ul class="navlist">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
 
-      <ul class="navlist">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Type</a></li>
-        <li><a href="#">Specifications</a></li>
-        <li><a href="#">Color</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+            <div class="nav-right">
+                <a href="#"><i class="ri-user-line"></i></a>
+                <a href="#"><i class="ri-heart-2-line"></i></a>
+                <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+        <section class="home">
+            <div class="home-text">
+                <h5>Think Creative</h5>
+                <h1>Trendy Luxury Crafts</h1>
+                <p>Creating smiles and spreading happiness for generations!</p>
+                <a href="#" class="btn">
+                    <i class="ri-store-fill"></i>
+                    Shop now
+                </a>
+            </div>
 
-      <div class="bx bx-menu" id="menu-icon"></div>
-    </header>
+            <div class="home-img">
+                <img src="img/home.png">
+            </div>
+        </section>
 
-    <section class="cars">
-      <div class="cars-text">
-        <h5>#10 Huge company</h5>
-        <h4>Lead you to the future</h4>
-        <h1>AUDI</h1>
-        <p>Find your future cars here</p>
-        <a href="#">Compare</a>
-        <a href="#" class="ctaa"><i class="ri-play-fill">Watch The Cars</i></a>
-      </div>
+        <section class="crafts">
+            <div class="crafts-content">
+                <div class="crafts-box">
+                    <img src="img/c1.jpg">
+                    <h6>10 Items</h6>
+                    <h3>Handicrafts</h3>
+                    <a href="#" class="crafts-btn">
+                        <i class="ri-store-fill"></i>
+                        Shop now
+                    </a>
+                </div>
+                <div class="crafts-box">
+                    <img src="img/c2.jpg">
+                    <h6>8 Items</h6>
+                    <h3>Handicrafts</h3>
+                    <a href="#" class="crafts-btn">
+                        <i class="ri-store-fill"></i>
+                        Shop now
+                    </a>
+                </div>
+                <div class="crafts-box">
+                    <img src="img/c3.jpg">
+                    <h6>20 Items</h6>
+                    <h3>Handicrafts</h3>
+                    <a href="#" class="crafts-btn">
+                        <i class="ri-store-fill"></i>
+                        Shop now
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+        <section class="new-products">
+            <div class="center-in">
+                <img src="img/center.png">
+                <h2>New Arrival Products</h2>
+                <p>Introducing our latest collection of new arrival products, <br> designed to elevate your lifestyle and meet your every need. <br> Our curated selection features the newest trends and innovations across a variety of categories, <br> from cutting-edge electronics and 
+                    stylish apparel to must-have home goods and unique accessories. <br> Each item has been carefully chosen for its quality, functionality, and style, <br> ensuring that you can find the perfect addition to your daily routine 
+                    or a thoughtful gift for someone special. <br> Explore our new arrivals now and 
+                    discover the perfect blend of practicality and elegance, <br> ready to enhance your life in every way!</p>
+            </div>
+            <div class="new-products-content">
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p1.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 300.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p2.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 150.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p3.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 135.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p4.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 220.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p5.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 210.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p6.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 150.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p7.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 170.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p8.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 280.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-img">
+                        <img src="img/p9.jpg">
+                    </div>
+                    <h3>Demo Product</h3>
+                    <h5>Rp 350.000</h5>
+                    <div class="r-btnn">
+                        <a href="#">
+                            Add to cart
+                            <i class="ri-shopping-cart-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <div class="cars-img">
-        <img src="audi.png" />
-      </div>
-    </section>
+        <section class="cta">
+            <div class="cta-content">
+                <h4>Sign up now & get 10% off</h4>
+                <p>Sign up now and instantly receive 10% off your first purchase! 
+                    Join our community to enjoy exclusive discounts, early access to new arrivals, and special promotions tailored just for you. 
+                    Don’t miss out on this limited-time offer. <br> Register today and start saving on your favorite products!</p>
+                <div class="c-search">
+                    <form action="">
+                        <input type="email" placeholder="Enter your Email..." 
+                        required>
+                        <input type="submit" value="Subscribe" class="btn">
+                    </form>
+                </div>
+            </div>
+        </section>
 
-    <div class="icons">
-      <a href="#"><i class="ri-instagram-line"></i></a>
-      <a href="#"><i class="ri-youtube-line"></i></a>
-      <a href="#"><i class="ri-twitter-line"></i></a>
-    </div>
+        <section class="trending">
+            <div class="center-in">
+                <img src="img/center.png">
+                <h2>Trending Product</h2>
+                <p>Discover our trending product, the must-have item of the season that everyone is talking about. 
+                    This innovative and stylish product combines exceptional functionality with modern design, 
+                    making it an essential addition to your collection. Whether you're looking to upgrade your own lifestyle or find the perfect gift, 
+                    this trending product is sure to impress with its quality and versatility. 
+                    Don't miss out on the latest craze—get yours today and stay ahead of the trend!</p>
+            </div>
 
-    <div class="scroll-down">
-      <a href="#"><i class="ri-arrow-down-wide-fill"></i></a>
-    </div>
+            <div class="trending-content">
+                <div class="box">
+                    <img src="img/t1.jpg">
+                    <h5>Products</h5>
+                    <h6>Rp 110.000</h6>
+                </div>
+                <div class="box">
+                    <img src="img/t2.jpg">
+                    <h5>Products</h5>
+                    <h6>Rp 150.000</h6>
+                </div>
+                <div class="box">
+                    <img src="img/t3.jpg">
+                    <h5>Products</h5>
+                    <h6>Rp 210.000</h6>
+                </div>
+                <div class="box">
+                    <img src="img/t4.jpg">
+                    <h5>Products</h5>
+                    <h6>Rp 250.000</h6>
+                </div>
+            </div>
+        </section>
 
-    <!---scrollreveal effect--->
-    <script src="https://unpkg.com/scrollreveal"></script>
+        <section class="blog">
+            <div class="center-in">
+                <img src="img/center.png">
+                <h2>Cordial Latest News!</h2>
+                <p>Cordial Latest News! Stay updated with our latest happenings, from exciting product launches to exclusive offers and events. 
+                    Join us as we share the latest updates and insights that matter to you. 
+                    Don't miss out—subscribe now for all the Cordial news you need.</p>
+            </div>
+            <div class="blog-content">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="img/b1.jpg">
+                    </div>
+                    <h6>LIFESTYLE - AUGUST 15, 2024</h6>
+                    <h3>How to sell Menswear to Women and Womenswear to Men</h3>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="img/b2.jpg">
+                    </div>
+                    <h6>LIFESTYLE - AUGUST 15, 2024</h6>
+                    <h3>How to sell Menswear to Women and Womenswear to Men</h3>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="img/b3.jpg">
+                    </div>
+                    <h6>LIFESTYLE - AUGUST 15, 2024</h6>
+                    <h3>How to sell Menswear to Women and Womenswear to Men</h3>
+                </div>
+            </div>
+        </section>       
+         <section class="footer">
+            <div class="footer-box">
+                <h3>Cordial</h3>
+                <p>Discover these exciting new arrivals and more at Cordial, your premier destination for artisanal crafts and unique finds. 
+                    With a commitment to quality and craftsmanship, Cordial offers a curated selection of products that inspire creativity and elevate everyday living. 
+                    Whether you're searching for the perfect statement piece for your home or a thoughtful gift for a loved one, Cordial has something special waiting for you. 
+                    Shop our new arrivals today and experience the magic of handcrafted treasures that add beauty and charm to your world.</p>
+                <div class="icons">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-twitter-line"></i></a>
+                    <a href="#"><i class="ri-youtube-line"></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <a href="#">Product Guides</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Delivery Policy</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Feedback</a>
+            </div>
+            <div class="footer-box">
+                <h3>Company</h3>
+                <a href="#">About Us</a>
+                <a href="#">Our Gallery</a>
+                <a href="#">Our Shop</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Our Blog</a>
+            </div>
+            <div class="footer-box">
+                <h3>Help</h3>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Phone: </a>
+                <a href="#">08237890709</a>
+            </div>
+         </section>
+         <div class="copyright">
+            <div class="end-text">
+                <p>Copyright @2024 Cordial. All Rights Reserved By Ivan Christian.</p>
+            </div>
+            <div class="end-img">
+                <img src="img/payment.png"">
+             </div>
+         </div>
+         <a href="#" class="top"><i class="ri-arrow-up-wide-line"></i></a>
 
-    <!---custom js link--->
-    <script src="script.js"></script>
-  </body>
+        <script src="script.js"></script>
+    </body>
 </html>
